@@ -3,8 +3,11 @@ package com.pradhanrishi.www.mord;
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.util.Log;
 
 public class ApplicationUtility {
+
+    private static String module = String.valueOf(ApplicationUtility.class);
     ConnectivityManager connectivityManager;
     NetworkInfo info;
 
@@ -13,18 +16,15 @@ public class ApplicationUtility {
         try {
             connectivityManager = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
             info = connectivityManager.getActiveNetworkInfo();
-
             if (info.getType() == ConnectivityManager.TYPE_WIFI) {
-                System.out.println(info.getTypeName());
                 flag = true;
             }
             if (info.getType() == ConnectivityManager.TYPE_MOBILE) {
-                System.out.println(info.getTypeName());
                 flag = true;
             }
+            Log.i(module, info.getTypeName());
         } catch (Exception exception) {
-            System.out.println("Exception at network connection....."
-                    + exception);
+            Log.e(module, "Exception at network connection...." + exception);
         }
         return flag;
     }
