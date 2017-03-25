@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Ministry of Rural Development</string>
+    <string name="combine_img_desc">Combine logo of schemes</string>
+    <string name="mord_logo">Mord logo</string>
+    <string name="login_btn">Login</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="loading">Loading…</string>
+    <string name="Sign_out">Sign out</string>
+</resources>

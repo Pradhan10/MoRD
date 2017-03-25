@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Sign out -->
+    <item android:id="@+id/action_Sign_out"
+        android:title="@string/Sign_out"
+         />
+
+</menu>

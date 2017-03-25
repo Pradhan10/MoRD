@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "504522973550",
+    "firebase_url": "https://mord-5ecff.firebaseio.com",
+    "project_id": "mord-5ecff",
+    "storage_bucket": "mord-5ecff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504522973550:android:d8cdc9728383513b",
+        "android_client_info": {
+          "package_name": "com.pradhanrishi.www.mord"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "504522973550-n6kli992r3gaphl3i2i2nl1ebn33l1qr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pradhanrishi.www.mord",
+            "certificate_hash": "043b8b677459ccf3564f70073d54620627fc8c36"
+          }
+        },
+        {
+          "client_id": "504522973550-orrev50r0u6u76cb14gt9s7sm0qjl8pf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYMClsTHqjF3ZgTdkgcAFsdigFknnDAxU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "504522973550-orrev50r0u6u76cb14gt9s7sm0qjl8pf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
