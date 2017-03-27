@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:background="@drawable/activity_background"
+                android:background="@drawable/activity_background">
+
+    <TextView
+        android:id="@+id/yojnaDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/openWebsite"
+            android:layout_width="169dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.07"
+            android:text="Open Website"/>
+
+        <Button
+            android:id="@+id/showStats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.72"
+            android:text="Button"
+            tools:text="Show stats"/>
+    </LinearLayout>
+
+</LinearLayout>
