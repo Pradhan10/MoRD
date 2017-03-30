@@ -1,4 +1,4 @@
-package com.pradhanrishi.www.mord;
+package com.pradhanrishi.www.mord.activities;
 
 /**
  * Created by yash on 24/3/17. Activity_splash
@@ -8,6 +8,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
+
+import com.pradhanrishi.www.mord.ApplicationUtility;
+import com.pradhanrishi.www.mord.R;
 
 import java.util.Timer;
 import java.util.TimerTask;
@@ -24,7 +27,7 @@ public class Activity_splash extends AppCompatActivity {
             t.schedule(new splash(), 3000);
         } else {
             Toast.makeText(Activity_splash.this,
-                    "connection not found...plz check connection", Toast.LENGTH_LONG).show();
+                    "Internet connection not available.", Toast.LENGTH_LONG).show();
         }
     }
 

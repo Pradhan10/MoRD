@@ -12,7 +12,6 @@ import android.view.ViewGroup;
 
 import com.github.mikephil.charting.charts.PieChart;
 import com.github.mikephil.charting.components.Legend;
-import com.github.mikephil.charting.components.Legend.LegendPosition;
 import com.xxmassdeveloper.mpchartexample.R;
 
 

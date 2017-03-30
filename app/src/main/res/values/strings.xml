@@ -10,5 +10,5 @@
     <string name="title_activity_yojna">YojnaActivity</string>
 
     <string name="DDUGKY">DDU-GKY is uniquely focused on rural youth between the ages of 15 and 35 years from poor families. As a part of the Skill India campaign, it plays an instrumental role in supporting the social and economic programs of the government like the Make In India, Digital India, Smart Cities and Start-Up India, Stand-Up India campaigns. Over 180 million or 69% of the country’s youth population between the ages of 18 and 34 years, live in its rural areas. Of these, the bottom of the pyramid youth from poor families with no or marginal employment number about 55 million.</string>
-    
+    <string name="connection_error">Connection error.</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.pradhanrishi.www.mord;
+package com.pradhanrishi.www.mord.activities;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -7,6 +7,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.pradhanrishi.www.mord.R;
+import com.pradhanrishi.www.mord.helper.MainActivity;
 
 //Custom imports
 
@@ -48,9 +51,11 @@ public class YojnaActivity extends AppCompatActivity  {
         mShowStats.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //UserHome myFetchData = new UserHome();
 
-                Intent pie = new Intent(YojnaActivity.this,PieChartActivity.class);
-                startActivity(pie);
+                Intent getData = new Intent(YojnaActivity.this, MainActivity.class);
+                startActivity(getData);
+
 
             }
         });

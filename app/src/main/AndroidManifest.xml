@@ -12,24 +12,25 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activity_splash">
+        <activity android:name=".activities.Activity_splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".Activiity_login"/>
-        <activity android:name=".Activity_home"/>
+        <activity android:name=".activities.Activiity_login"/>
+        <activity android:name=".activities.Activity_home"/>
         <activity
-            android:name=".YojnaActivity"
+            android:name=".activities.YojnaActivity"
             android:label="@string/title_activity_yojna"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
 
-        <activity android:name=".PieChartActivity">
+        <activity android:name=".charts.PieChartActivity">
 
         </activity>
+        <activity android:name=".helper.MainActivity"></activity>
     </application>
 
 </manifest>

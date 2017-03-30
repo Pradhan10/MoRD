@@ -3,7 +3,6 @@ package com.xxmassdeveloper.mpchartexample;
 
 import android.content.Context;
 import android.graphics.Color;
-import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;

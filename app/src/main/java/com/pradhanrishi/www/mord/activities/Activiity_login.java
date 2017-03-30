@@ -1,4 +1,4 @@
-package com.pradhanrishi.www.mord;
+package com.pradhanrishi.www.mord.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,6 +16,8 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.pradhanrishi.www.mord.MyBase;
+import com.pradhanrishi.www.mord.R;
 
 /**
  * Created by yash on 24/3/17.
@@ -47,7 +49,7 @@ public class Activiity_login extends MyBase implements View.OnClickListener {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
+        Log.e("LOGIN ACTIVITY", "onCreate  of Login called");
         mEmail = (EditText) findViewById(R.id.editMail);
         mPassword = (EditText) findViewById(R.id.editPassword);
         mLogin = (Button) findViewById(R.id.buttonSignin);

@@ -17,5 +17,13 @@
         android:id="@+id/website"
         android:title="Developer Website">
     </item>
+    <item
+        android:id="@+id/fetch_action"
+        android:showAsAction="ifRoom|withText"
+        android:title="fetch text"/>
+    <item
+        android:id="@+id/clear_action"
+        android:showAsAction="ifRoom|withText"
+        android:title="clear_text"/>
 
 </menu>

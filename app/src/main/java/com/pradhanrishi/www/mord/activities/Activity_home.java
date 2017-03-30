@@ -1,4 +1,4 @@
-package com.pradhanrishi.www.mord;
+package com.pradhanrishi.www.mord.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,6 +10,9 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
+
+import com.pradhanrishi.www.mord.GetYojnaId;
+import com.pradhanrishi.www.mord.R;
 
 //Custom import
 

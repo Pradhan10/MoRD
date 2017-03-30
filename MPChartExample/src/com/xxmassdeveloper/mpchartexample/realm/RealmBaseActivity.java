@@ -13,7 +13,6 @@ import com.github.mikephil.charting.formatter.PercentFormatter;
 import com.xxmassdeveloper.mpchartexample.custom.RealmDemoData;
 import com.xxmassdeveloper.mpchartexample.notimportant.DemoBase;
 
-import io.realm.*;
 import io.realm.RealmConfiguration;
 
 /**

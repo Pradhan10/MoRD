@@ -1,10 +1,12 @@
 
-package com.pradhanrishi.www.mord;
+package com.pradhanrishi.www.mord.charts;
 
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.FragmentActivity;
+
+import com.pradhanrishi.www.mord.R;
 
 /**
  * Baseclass of all Activities of the Demo Application.
